@@ -3625,33 +3625,38 @@ input, select, textarea {
 
 	#contact {
 		border-bottom: solid 1px rgba(212, 212, 255, 0.1);
+		margin-top: 30px;
+		/* margin-left: -140px; */
 		overflow-x: hidden;
+		display: flex;
+		width: 100%;
+		justify-content: space-evenly;
 	}
 
-		#contact > .inner {
+		/* #contact > .inner {
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
 			display: flex;
 			padding: 0 !important;
-		}
+		} */
 
-			#contact > .inner > :nth-child(2n - 1) {
+			/* #contact > .inner > :nth-child(2n - 1) {
 				padding: 4em 3em 2em 0 ;
 				border-right: solid 1px rgba(212, 212, 255, 0.1);
 				width: 60%;
-			}
+			} */
 
-			#contact > .inner > :nth-child(2n) {
+			/* #contact > .inner > :nth-child(2n) {
 				padding-left: 3em;
 				width: 40%;
-			}
+			} */
 
-			#contact > .inner > .split {
+			/* #contact > .inner > .split {
 				padding: 0;
-			}
+			} */
 
-				#contact > .inner > .split > * {
+				/* #contact > .inner > .split > * {
 					padding: 3em 0 1em 3em ;
 					position: relative;
 				}
@@ -3668,7 +3673,7 @@ input, select, textarea {
 
 				#contact > .inner > .split > :first-child:before {
 					display: none;
-				}
+				} */
 
 		@media screen and (max-width: 980px) {
 
@@ -3950,3 +3955,10 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+.resumeButton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 100px;
+	margin-top: -50px;
+}
