@@ -3629,8 +3629,14 @@ input, select, textarea {
 		/* margin-left: -140px; */
 		overflow-x: hidden;
 		display: flex;
+		/* margin-left: 135px; */
 		width: 100%;
-		justify-content: space-evenly;
+		/* justify-content: space-evenly; */
+	}
+
+	#contact section {
+		margin-left: 135px;
+		/* margin-right: 270px; */
 	}
 
 		/* #contact > .inner {
@@ -3956,9 +3962,10 @@ input, select, textarea {
 			visibility: visible;
 		}
 .resumeButton {
-	display: flex;
+	/* display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: center; */
+	margin-left: 210px;
 	margin-bottom: 100px;
 	margin-top: -50px;
 }
